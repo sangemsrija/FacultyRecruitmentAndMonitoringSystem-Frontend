@@ -1,0 +1,31 @@
+/* RecNavbar.css */
+
+.nav2 {
+  background-color: #166694; /* Set background color of the navbar */
+  overflow: hidden; /* Hide overflowing content */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center-align items horizontally */
+}
+
+.nav2 ul {
+  list-style-type: none; /* Remove bullets from the list */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.nav2 ul li {
+  display: inline-block; /* Make list items behave as inline-block elements */
+}
+
+.nav2 ul li a {
+  display: block; /* Make anchor tags behave as block-level elements */
+  color: white; /* Set text color */
+  text-align: center; /* Center-align text */
+  padding: 14px 16px; /* Add padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Change color of links on hover */
+.nav2 ul li a:hover {
+  background-color: #111; 
+}

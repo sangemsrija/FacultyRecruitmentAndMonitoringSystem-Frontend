@@ -1,38 +1,111 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20211009/pngtree-particle-bg-blue-color-image_910534.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.footer {
+  background-color: rgb(45, 43, 47);
+  color:white;
+}
+
+.form-control {
+padding-left: 10px;
+width: 250px; /* Adjust the width as needed */
+height: 45px; /* Adjust the height as needed */
+}
+.text-center {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+th {
+  background-color:grey;
+  color:white;
+}
+
+/* Hover Effect */
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Responsive Table Styling */
+@media only screen and (max-width: 600px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  th {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+
+  tr {
+    border: 1px solid black;
+    margin-bottom: 10px;
   }
+
+  td {
+    border: none;
+    border-bottom: 1px solid black;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    content: attr(data-label);
+    font-weight: bold;
+  }
+
 }

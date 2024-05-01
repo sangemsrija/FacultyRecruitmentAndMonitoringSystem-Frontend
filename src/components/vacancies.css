@@ -1,0 +1,17 @@
+.posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+}
+
+.post-box {
+  flex: 0 0 calc(30% - 20px); /* Adjust the width as needed */
+  /* Using flex shorthand property: flex-grow, flex-shrink, flex-basis */
+  /* Setting flex-grow and flex-shrink to 0 ensures that items don't grow or shrink */
+  /* Adjust flex-basis to control the initial size of the items */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}

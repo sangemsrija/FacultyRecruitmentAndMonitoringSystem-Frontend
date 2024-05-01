@@ -1,0 +1,22 @@
+/* Align navbar items to the right */
+.navbar-nav.ml-auto {
+    margin-left: auto !important;
+  }
+  
+  /* Center the institute name vertically */
+  .institute-name {
+    color:aliceblue;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style search input */
+  .navbar input[type="text"] {
+    margin-right: 10px;
+  }
+  
+  /* Style login and signup buttons */
+  .navbar .btn {
+    margin-right: 5px;
+  }
+  

@@ -1,0 +1,66 @@
+.signup-work-tab-buttons {
+    display: flex;
+  }
+  
+  .signup-work-tab-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: #007bff; /* Default color */
+    color: #fff;
+  }
+  
+  .signup-work-tab-buttons button.active {
+    background-color: #617891; /* Active color */
+  }
+  
+
+  /* CSS for Signup Form */
+
+.signup-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .signup-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .signup-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-container label {
+    margin-bottom: 5px;
+  }
+  
+  .signup-container input[type="text"],
+  .signup-container input[type="email"],
+  .signup-container input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .signup-container button[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .signup-container button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

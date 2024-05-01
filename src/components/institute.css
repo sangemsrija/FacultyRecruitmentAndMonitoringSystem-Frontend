@@ -1,0 +1,41 @@
+
+h2 {
+    text-align: center;
+    color:grey;
+  }
+ 
+  /* Style the list group items */
+  .list-group-item {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the container */
+  .container {
+    margin-top: 20px;
+  }
+  
+  /* Style the cards */
+  .card {
+    margin: 10px;
+  }
+  
+  /* Style the card images */
+  .card-img-top {
+    max-height: 150px;
+    object-fit: cover;
+  }
+  
+  /* Center the card title */
+  .card-title {
+    text-align: center;
+  }
+  
+  /* Center the card text */
+  .card-text {
+    text-align: center;
+  }
+  
+  

@@ -1,0 +1,39 @@
+/* Style the card deck */
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  /* Style individual cards */
+  .card1 {
+    width: 18rem;
+    border: 1px solid #ddd; /* Add border for a subtle separation between cards */
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card1:hover {
+    transform: scale(1.05); /* Add a subtle zoom effect on hover */
+  }
+  
+  /* Style card images */
+  .card1 img {
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  /* Style card titles */
+  .card-title1 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+  
+  /* Style card text */
+  .card-text1 {
+    text-align: center;
+    color: #555; /* Change the text color as needed */
+  }

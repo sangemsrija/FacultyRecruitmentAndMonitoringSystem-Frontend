@@ -1,0 +1,106 @@
+/* App.css */
+.w3-light-grey {
+    background-color: #f1f1f1;
+  }
+  
+  .w3-content {
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .w3-container {
+    margin-bottom: 20px;
+  }
+  
+  .w3-center {
+    text-align: center;
+  }
+  
+  .w3-padding-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  
+  .w3-row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .w3-col {
+    float: left;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .w3-col.l8 {
+      width: 66.66%;
+    }
+  }
+  
+  .w3-card-4 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .w3-margin {
+    margin: 16px 0;
+  }
+  
+  .w3-white {
+    background-color: #fff;
+  }
+  
+  .w3-opacity {
+    opacity: 0.6;
+  }
+  
+  .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .w3-button:hover {
+    background-color: #ddd;
+  }
+  
+  .w3-border {
+    border: 1px solid #ccc;
+  }
+  
+  .w3-tag {
+    background-color: #000;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .w3-right {
+    float: right !important;
+  }
+  
+  .w3-padding-large {
+    padding: 16px 24px;
+  }
+  
+  .w3-hide-small {
+    display: none;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .w3-hide-small {
+      display: block;
+    }
+  }
+  

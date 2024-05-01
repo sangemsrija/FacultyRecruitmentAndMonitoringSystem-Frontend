@@ -1,0 +1,16 @@
+@keyframes move {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+  
+  .horizontal-cards-container {
+    display: flex;
+    animation: move 10s linear infinite; /* Adjust the animation duration as needed */
+  }
+  
+  .horizontal-card {
+    flex: 0 0 auto;
+    width: 300px; /* Adjust the card width as needed */
+    margin-right: 20px;
+  }
+  
